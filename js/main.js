@@ -44,14 +44,13 @@ const speak = ()=>{
         return;
     }
 
-    console.log(textInput);
     if(textInput.value!== ''){
         body.style.background = 'white url(img/wave.gif)';
         body.style.backgroundRepeat = 'repeat-x';
         body.style.backgroundSize = '100% 100%';
         //get speak text
         const speakText = new SpeechSynthesisUtterance(textInput.value);
-        console.log(speakText);
+        
         //speak end
         speakText.onend = e=>{
             body.style.background = 'white';
