@@ -1,0 +1,16 @@
+{
+  "name": "texttospeech",
+  "version": "1.0.0",
+  "description": "web speech api",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://arLong-98.github.io/texttospeech"
+}
